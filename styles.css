@@ -230,7 +230,14 @@ nav svg{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling */
 }
+
+.container::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just to avoid a white background */
+}
+
 section{
     height: 100vh;
     display: flex;
