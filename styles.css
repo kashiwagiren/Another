@@ -331,3 +331,7 @@ section{
     font-size: 0.9rem;
     color: #6c6c6c;
 }
+
+.another-content{
+    display: flex;
+}
