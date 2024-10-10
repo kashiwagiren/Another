@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #orientation-lock {
     position: fixed;
     top: 0;
@@ -330,6 +334,10 @@ section{
     margin-top: 15px;
     font-size: 0.9rem;
     color: #6c6c6c;
+}
+
+#two{
+    background: #6c6c6c;
 }
 
 .another-content{
